@@ -18,11 +18,5 @@ pipeline {
             }
         }
     }
-      post
-      {
-        always
-        {
-          emailtext body: 'Summary', subject: 'Pipeline Status', to: 'srashtisinghal198@gmail.com'
-        }
-    }
+      
 }
